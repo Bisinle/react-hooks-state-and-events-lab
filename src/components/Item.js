@@ -11,7 +11,7 @@ function Item({ name, category }) {
   return (
     <li className={liClassName}>
       <span>{name}</span>
-      <span className="category">{category}</span>
+      <span className="category">{category}</span> 
       <button className="add" onClick={addToRemoveFromCart}>
         {btnText}
       </button>
